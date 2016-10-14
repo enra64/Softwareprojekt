@@ -1,0 +1,13 @@
+# Use cases
+## Balancierspiel: Murmel-Labyrinth mit kuka-Roboter
+## Virtuelle Maus
+## Virtuelles Gamepad
+
+# Requirements
+## Allgemeine Nutzbarkeit
+Um die Verbindung der Remotes mit möglichst vielen Anwendungen zu ermöglichen, sollte eine Plattformunabhängige Lösung gesucht werden. Hier bietet sich Java an, da es einfache Umsetzungmöglichkeiten für die Steuerungs-Use-Cases bietet, und die Kuka-API auf Java basiert. Sollte Java zu langsam sein, könnte man auch auf C++ ausweichen.
+
+Generell sollte natürlich für alle Use-Cases die Latenz so gering wie niedrig sein, die Fehlertoleranz hoch, und die Daten mit geringem Jitter und hoher Genauigkeit ankommen. Es kommt also auf Tradeoffs zwischen den einzelnen Eigenschaften an, um für die einzelnen use-cases die beste Erfahrung zu ermöglichen.
+
+Für das Balancierspiel ist eine geringe Latenz wichtig, da der menschliche Steuerer schnell neue Eingaben machen können muss, um auf die Bewegungen der Murmel zu reagieren. Diese Anforderung an die Latenz hat allerdings zur Folge, dass die Genauigkeit leidet, da die Datenbasis zur Ermittlung des korrekten Wertes klein sein muss. Ähnlich sieht es beim virtuellen Gamepad aus; der Benutzer kann hier Ungenauigkeiten selber ausgleichen, benötigt aber schnelle Reaktionen des Steuergerätes. Ausgehend von der Bildwiederholrate von ungefähr 25Hz bei Spielekonsolen ist davon auszugehen, das eine Latenz von unter 40ms akzeptabel sind.
+Für den virtuellen Maustreiber ist die Situation anders gelagert: Das Zeigen sollte sehr genau sein, da der Nutzer durch kleine Bewegungen große Distanzen auf dem Bildschirm zurücklegt; die Latenz ist dafür weniger wichtig.
