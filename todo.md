@@ -9,3 +9,7 @@ Idealerweise mit Möglichkeit, die Updates via UDP oder TCP zu pushen.
 
 bis zum 21.10:
 konzept der umsetzung haben, fähig sein die vorraussichtlich/schon benutzten technologien zu nennen und zu erklären. Am besten schon mit der umsetzung begonnen haben.
+
+
+# Generell
+* welche requirements an motion sensors haben wir??? es gibt eine menge... [https://developer.android.com/guide/topics/sensors/sensors_motion.html](https://developer.android.com/guide/topics/sensors/sensors_motion.html)
