@@ -48,7 +48,6 @@ public class SensorData implements Serializable, Cloneable {
 
     /**
      * Create a csv representation of this object
-     * @return
      */
     @Override
     public String toString() {
