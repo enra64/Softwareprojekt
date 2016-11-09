@@ -1,4 +1,4 @@
-package common;
+package de.ovgu.softwareprojekt.common;
 
 import java.io.Serializable;
 import java.util.Arrays;
