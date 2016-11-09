@@ -26,8 +26,8 @@ dependencies {
     })
 
     // we require to compile our common project (DataSink, DataSource, SensorData, command stuff)
-    compile project(':common')
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.android.support:design:25.0.0'
     testCompile 'junit:junit:4.12'
+    compile project(':common')
 }

@@ -1,4 +1,4 @@
-package common;
+package de.ovgu.softwareprojekt.common;
 
 /**
  * Interface for sensor data sinks

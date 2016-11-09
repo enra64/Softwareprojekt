@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app-app.iml" filepath="$PROJECT_DIR$/app/app-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../common/common.iml" filepath="$PROJECT_DIR$/../common/common.iml" />
+      <module fileurl="file:///run/media/arne/data/Studium/Semester 5/semester-5-golden-repo/softwareprojekt/Softwareprojekt/app/app.iml" filepath="/run/media/arne/data/Studium/Semester 5/semester-5-golden-repo/softwareprojekt/Softwareprojekt/app/app.iml" />
+      <module fileurl="file:///run/media/arne/data/Studium/Semester 5/semester-5-golden-repo/softwareprojekt/Softwareprojekt/app/app/app-app.iml" filepath="/run/media/arne/data/Studium/Semester 5/semester-5-golden-repo/softwareprojekt/Softwareprojekt/app/app/app-app.iml" />
+      <module fileurl="file:///run/media/arne/data/Studium/Semester 5/semester-5-golden-repo/softwareprojekt/Softwareprojekt/common/common.iml" filepath="/run/media/arne/data/Studium/Semester 5/semester-5-golden-repo/softwareprojekt/Softwareprojekt/common/common.iml" />
     </modules>
   </component>
 </project>
