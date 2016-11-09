@@ -9,12 +9,13 @@ import java.util.List;
  */
 
 public class Discovery {
-    class Server {
-        String name;
-        InetAddress address;
+    public class Server {
+        public String name;
+        public String address;
+        public String port;
     }
 
-    interface OnDiscoveryListener {
+    public interface OnDiscoveryListener {
         void onServerListUpdated(List<Server> serverNames);
     }
 

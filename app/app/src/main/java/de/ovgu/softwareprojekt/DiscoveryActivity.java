@@ -1,14 +1,25 @@
 package de.ovgu.softwareprojekt;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import de.ovgu.softwareprojekt.common
-public class DiscoveryActivity extends AppCompatActivity {
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 
+import java.util.List;
+
+import de.ovgu.softwareprojekt.server_discovery.Discovery;
+
+public class DiscoveryActivity extends AppCompatActivity implements Discovery.OnDiscoveryListener {
+
+    Button mStartDiscovery;
+    ListView mPossibleConnections;
+    List<Discovery.Server> mServerList;
+    Discovery mDiscovery;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,14 +27,30 @@ public class DiscoveryActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+
+
+        mStartDiscovery = (Button) findViewById(R.id.startDiscovery);
+        mStartDiscovery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                mDiscovery.startDiscovery(DiscoveryActivity.this);
             }
         });
+
+        mPossibleConnections = (ListView) findViewById(R.id.possibleConnections);
+
+        mPossibleConnections.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(DiscoveryActivity.this, SendActivity.class);
+                intent.putExtra("Name", mServerList.get(i).name);
+                intent.putExtra("Address" , mServerList.get(i).address);
+                intent.putExtra("Port", mServerList.get(i).port);
+
+                DiscoveryActivity.this.startActivity(intent);
+            }
+        });
+
     }
 
 }
