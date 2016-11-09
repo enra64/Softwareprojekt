@@ -1,2 +1,1 @@
-include ':app', ":common"
-project(":common").projectDir = file("../common")
+include ':app'

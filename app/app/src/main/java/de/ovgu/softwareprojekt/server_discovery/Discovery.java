@@ -1,6 +1,5 @@
 package de.ovgu.softwareprojekt.server_discovery;
 
-import java.net.InetAddress;
 import java.util.List;
 
 

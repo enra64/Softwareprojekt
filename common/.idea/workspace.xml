@@ -6,39 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45e871d-9ef1-407a-8add-3e04610f99af" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/common_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/common_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/modules/server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/modules/server_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/modules/server_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/settings.gradle" afterPath="" />
+    <list default="true" id="bde20c02-6dea-4652-a04a-1f6dcc44e276" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../app/common" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/common2/de/ovgu/softwareprojekt/common/DataSink.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/common2/de/ovgu/softwareprojekt/common/DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/common2/de/ovgu/softwareprojekt/common/SensorData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/common2/de/ovgu/softwareprojekt/common/SensorType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorType.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../app/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/.idea/misc.xml" afterPath="$PROJECT_DIR$/../app/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/app/src/main/java/de/ovgu/softwareprojekt/DiscoveryActivity.java" afterPath="$PROJECT_DIR$/../app/app/src/main/java/de/ovgu/softwareprojekt/DiscoveryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/.idea/modules.xml" afterPath="$PROJECT_DIR$/../app/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/app/build.gradle" afterPath="$PROJECT_DIR$/../app/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/settings.gradle" afterPath="$PROJECT_DIR$/../app/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/common_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/common_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.iml" afterPath="$PROJECT_DIR$/common.iml" />
     </list>
     <ignored path="common.iws" />
@@ -58,64 +47,12 @@
   <component name="FavoritesManager">
     <favorites_list name="common" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SensorData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSink.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/common/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorType.java" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -148,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,26 +119,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="softwareprojekt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="common" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -320,7 +255,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="common2" />
+      <module name="common" />
       <envs />
       <method />
     </configuration>
@@ -406,11 +341,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a45e871d-9ef1-407a-8add-3e04610f99af" name="Default" comment="" />
-      <created>1478710970827</created>
+      <changelist id="bde20c02-6dea-4652-a04a-1f6dcc44e276" name="Default" comment="" />
+      <created>1478712342452</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1478710970827</updated>
+      <updated>1478712342452</updated>
     </task>
     <servers />
   </component>
@@ -420,7 +355,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -428,7 +363,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -460,72 +395,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/SensorData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/ovgu/softwareprojekt/common/DataSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
