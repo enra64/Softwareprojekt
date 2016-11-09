@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Softwareprojekt</string>
+    <string name="title_activity_discovery">DiscoveryActivity</string>
 </resources>
