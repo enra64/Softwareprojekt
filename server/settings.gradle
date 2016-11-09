@@ -1,5 +1,0 @@
-rootProject.name = 'server'
-
-// we require to compile our common project (DataSink, DataSource, SensorData, command stuff)
-include ":common"
-project(":common").projectDir = file("../common")

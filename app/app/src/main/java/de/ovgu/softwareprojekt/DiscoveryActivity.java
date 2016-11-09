@@ -6,7 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-
+import de.ovgu.softwareprojekt.common
 public class DiscoveryActivity extends AppCompatActivity {
 
     @Override
